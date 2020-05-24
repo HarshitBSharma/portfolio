@@ -25,15 +25,16 @@ body{
 }
 
 .maintitle{
-    font-size: 60px;
+    font-size: 3.75em;
     letter-spacing: 8px;
     font-weight: 700;
     margin-bottom: 1.5em;
 }
 
 .interest{
-    font-size: 25px;
+    font-size: 1.75em;
     letter-spacing: 2px;
+    color: #525B26 !important;
 
 }
 
@@ -46,13 +47,6 @@ body{
 
 }
 
-.progress-bar{
-    position: absolute;
-    width: 20em;
-    background-color: #A4978E;
-    border-radius: 1.5em;
-
-}
 
 .skills span{
     text-align: center;
@@ -65,7 +59,10 @@ body{
     letter-spacing: 2px;
 }
 
+.language-table,.libraries,.misc{
+    font-size: 1.25em;
 
+}
 
 .language-table{
     float: left;
@@ -76,7 +73,7 @@ body{
 .libraries{
     position: relative;
     float: left;
-    width: 33%;
+    width: 33.33%;
 }
 
 .misc{
@@ -88,14 +85,28 @@ body{
 .column-title{
     color: #525B26 !important;
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 1.75em;
+}
+
+.projects span{
+    display: block;
+    text-align: center;
 }
 
 .projects{
     text-align: center;
+    position: absolute;
     height: 100%;
-    width:100%;
-    position: relative;
-    float: bottom;
+    width: 100%;
+    transform: translate(0%, 250%);
 
 }
+.proj-row{
+    height: 50%;
+}
+
+.projects{
+    width: 100%;
+    height: 100%;
+}
+
